@@ -12,7 +12,7 @@ const About = () => {
           <p>大学ではPython, Java, Cを学習し、最初の二つは二次元の図やアニメーションなどの表示をし、Cでは方程式の計算や探索などのアルゴリズムを主に学習しました。（C++もほんの少し触りました。）現在では待ちに待ったPythonでHTTPサーバーを立ててWebページを表示させる学習をしています。</p>
         </div>
         <div className="about-img">
-          <Image src='/images/about.jpg' className="profile-img" width={300} height={500}/>
+          <Image src='/images/about.jpg' className="profile-img" width={300} height={500} alt="ビギナーズハッカソン"/>
         </div>
       </div>
     </div>
