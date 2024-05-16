@@ -4,16 +4,19 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
-      <Image src='/images/profile.jpg' className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
+    <div className="hero-container" style={{height: 500}}>
+      <Image src='/images/profile.jpg' className="profile-img" width={400} height={400} alt="Joe's personal headshot" />
       <div className="hero-text">
-        <h1>こんにちは、ジョーです👋</h1>
-        <p>
-          ナイジェリアのラゴスを拠点とするソフトウェア開発者です。卓越したウェブサイトやアプリケーション、またその間にあるあらゆるものの構築（時にはデザイン）を専門としています。
-        </p>
+        <div>
+          <p>名前：西　葵斗</p>
+          <p>生年月日：2003年8月27日</p>
+          <p>学生：関西学院大学 工学部 情報工学課程</p>
+          <p>Webエンジニア(フロント)</p><br />
+
+        </div>
         <div className="social-icons">
           <a
-            href="https://twitter.com/olawanle_joel"
+            href="https://twitter.com/AO25255"
             aria-label="Twitter"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,20 +24,12 @@ const Hero = () => {
             <i className="fa-brands fa-twitter"></i>
           </a>
           <a
-            href="https://github.com/olawanlejoel"
+            href="https://github.com/aya0620a"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/olawanlejoel/"
-            aria-label="LinkedIn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </div>
